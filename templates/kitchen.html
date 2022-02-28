@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <style>
+    
+    body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    }
+    
+    .instruction1{
+    text-align: center;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .link{
+    position: relative;
+    left: 725px;
+    height: 100%;
+    }
+
+    .clear{
+    background-color: #FF5c5c;
+    position: relative;
+    left: 660px;
+    size: 300px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    font-size: 25px;
+    }
+    .clear:hover{
+    background-color: red;
+    }
+
+    .clear:active {
+    background-color: #3e8e41;
+    box-shadow: 0 10px #666;
+    transform: translateY(4px);
+    }
+    </style>
+</head>
+<body>
+    <h1 class="instruction1">Please refresh your orders window every few minutes!!</h1>
+    <h3 class="instruction1">Click the chef to check your orders </h3>
+    <a class="link" href="http://127.0.0.1:5000/showorders" target="_blank"><img class="img" src="chef.jfif" alt="Click here to see the orders!!"></a><br><br>
+    <a href="http://127.0.0.1:5000/delete" target="_blank"><button class="clear">Clear the Previous Database</button></a>
+</body>
+</html>
